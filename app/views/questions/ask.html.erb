@@ -1,0 +1,43 @@
+<!-- 4. IN VIEW CREATE PAGES.html  -->
+<h1>Stupid Coaching</h1>
+
+<p>ask your coach something</p>
+
+<form action="/answer" method="get">
+  <input type="text" name="question" placeholder="ask...">
+  <input type="submit" value="Ask!">
+</form>
+
+<!-- # if @question.include?("?")
+    #   "Silly question, get dressed and go to work!"
+    #   elsif @answer == "I am going to work right now!"
+    #   ""
+    #   else
+    #   "I don't care, get dressed and go to work!"
+    # end
+    # def ask(message)
+    #  if message.include?("?")
+    #    return "Silly question, get dressed and go to work!"
+    #  elsif message == "I am going to work right now!"
+    #    return ""
+    #  else
+    #    return "I don't care, get dressed and go to work!"
+    # end
+  end
+
+  def answer
+    @question = params[:question]
+    # if @question.present
+    # @answer
+    # end
+    # do something to the question asked by the user
+    # answer = coach_answer(your_message)
+    # case your_message
+    # when "I AM GOING TO WORK RIGHT NOW!"
+    #   return ""
+    # when your_message.upcase
+    #   return "I can feel your motivation! #{answer}"
+    # end
+    #   return answer
+  end
+end -->
